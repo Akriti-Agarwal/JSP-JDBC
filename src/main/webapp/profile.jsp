@@ -18,7 +18,7 @@ Navin<br>
 <%
     String url ="jdbc:postgresql://localhost:5432/alien";
     String username= "postgres";
-    String password ="Avaya@123";
+    String password ="0";
     String sql ="select * from stud where userid = 1 ";
     Class.forName("org.postgresql.Driver");
     Connection con= DriverManager.getConnection(url,username,password);
